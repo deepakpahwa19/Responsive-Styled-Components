@@ -1,5 +1,7 @@
 const initialState = {
-    categories: []
+    categories: [],
+    loading: false,
+    errorMessage: ''
 }
 
 export default initialState;

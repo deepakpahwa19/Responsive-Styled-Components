@@ -16,12 +16,12 @@ export const Footer = (props) => {
 }
 
 
-const FooterStyle = styled.nav`
+const FooterStyle = styled.div`
   position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;
-  background: #2d3436;
+  background: #17191c;
   z-index: 1;
   font-size: 1.2rem;
 
@@ -38,5 +38,5 @@ const Container = styled.div`
 `;
 
 const Content = styled.div`
-  padding: 1.2rem
+  /* padding: 1rem */
 `;

@@ -3,7 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyles = createGlobalStyle`
 
   /* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');; */
-  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+  /* @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap'); */
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
   *,
   *::after,
@@ -14,7 +15,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html {
-    font-size: 62.5%;
+    font-size: 85%;
   }
 
   body {

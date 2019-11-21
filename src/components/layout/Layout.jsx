@@ -10,7 +10,6 @@ export const Layout = () => {
             <Main></Main>
             <Footer></Footer>
         </>
-        // <h1>This is layout</h1>
     )
 }
 
