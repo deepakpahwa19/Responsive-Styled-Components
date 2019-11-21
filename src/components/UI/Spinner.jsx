@@ -18,7 +18,7 @@ const StyledSpinner = styled.svg`
   display: ${props => props.show ? 'block' : 'none'};
   animation: rotate 1s linear infinite;
   position: relative;
-  margin: 100px auto;
+  margin: 200px auto;
   width: 50px;
   height: 50px;
   z-index: 1000;
