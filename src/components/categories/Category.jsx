@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 import Image from '../UI/Image';
 import Label from '../UI/Label';
@@ -28,6 +29,12 @@ const Category = (props) => {
             </Content>
         </Section>
     )
+}
+
+Category.propTypes = {
+    title: PropTypes.string,
+    messageBody: PropTypes.string,
+    index: PropTypes.number.isRequired,
 }
 
 export default Category;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
 import GridLayout from './GridLayout';
 import { getPostsAction } from '../../services/actions/sagaActions';
@@ -32,6 +33,10 @@ const mapDispatchToProps = dispatch => {
     return {
         getPosts: () => dispatch(getPostsAction())
     }
+}
+
+Main.propTypes = {
+    getPosts: PropTypes.func
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Main);

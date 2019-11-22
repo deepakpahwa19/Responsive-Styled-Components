@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 import Category from '../categories/Category';
-import withSpinner from '../hoc/withSpinner';
+import { withSpinner } from '../hoc/withSpinner';
 
 class GridLayout extends Component {
 
@@ -22,6 +23,10 @@ class GridLayout extends Component {
             </Grid >
         )
     }
+}
+
+GridLayout.propTypes = {
+    categories: PropTypes.array,
 }
 
 export default withSpinner(GridLayout);

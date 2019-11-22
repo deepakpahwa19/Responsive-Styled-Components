@@ -1,8 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Button = (props) => {
-    return <ButtonComp type={props.type}>{props.children}</ButtonComp>
+    const { type, children } = props;
+    return <ButtonComp type={type}>{children}</ButtonComp>
+}
+
+Button.propTypes = {
+    type: PropTypes.string,
+    children: PropTypes.string
 }
 
 export default Button;

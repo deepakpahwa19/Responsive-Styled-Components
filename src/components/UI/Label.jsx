@@ -1,11 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Label = (props) => {
 
     const { isIndexEven } = props;
     return <LabelComp>{isIndexEven ? 'TRAVELLING' : 'LIFESTYLE'}</LabelComp>
 
+}
+
+Label.propTypes = {
+    isIndexEven: PropTypes.bool
 }
 
 

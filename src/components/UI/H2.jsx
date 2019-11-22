@@ -1,9 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const H2 = (props) => {
     return <H2Comp>{props.children}</H2Comp>
 }
+
+H2.propTypes = {
+    children: PropTypes.string
+}
+
 
 export default H2;
 
