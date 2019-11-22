@@ -8,7 +8,7 @@ import H2 from '../UI/H2';
 import MessageBody from '../UI/MessageBody';
 import DateUI from '../UI/DateUI';
 import Button from '../UI/Button';
-import { randomDate } from '../../utils/randomDate';
+import { randomDate } from '../../utils/date/randomDate';
 
 const Category = (props) => {
 
