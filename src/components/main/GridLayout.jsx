@@ -39,14 +39,19 @@ const Grid = styled.div`
     grid-column-gap: 1em;
     grid-row-gap: 4em;
 
-    @media (max-width: 799px){
+    @media (max-width: 669px){
         padding: auto;
         grid-template-columns: repeat(1, 1fr);
-
     }
 
-    @media  (min-width: 800px) and (max-width: 1039px) {
+    @media (min-width: 670px) and (max-width: 969px) {
+        padding: 2rem;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media  (min-width: 970px) and (max-width: 1039px) {
+        padding: 2rem;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     @media (min-width: 1040px) and (max-width: 1300px){

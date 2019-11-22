@@ -1,6 +1,6 @@
 import { takeLatest, put } from 'redux-saga/effects';
 
-import { GET_POSTS } from '../utils/constants/sagaActionTypes';
+import { GET_POSTS } from './actions/sagaActionTypes';
 import { axiosInstance } from '../utils/api/axiosInstance';
 import { setCategories, setError, setLoading } from '../store/actions/actions';
 

@@ -11,10 +11,10 @@ const ButtonComp = styled.button`
     width: 100px;
     height: 30px;
     font-weight: bold;
-    font-family: Sourcesanspro;
     position: absolute;
     bottom: 30px;
-    /* border: 1px transparent; */
+    border: none;
+    font-family: 'Source Sans Pro';
     left: 99px;
     color: #212121;
     letter-spacing: 2px;

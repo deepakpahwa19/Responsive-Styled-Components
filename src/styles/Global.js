@@ -4,7 +4,7 @@ const GlobalStyles = createGlobalStyle`
 
   /* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');; */
   /* @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap'); */
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap');
 
   *,
   *::after,
@@ -21,7 +21,9 @@ const GlobalStyles = createGlobalStyle`
   body {
     box-sizing: border-box;
     line-height: 2em;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: */
+    font-family: 'Source Sans Pro';
+    letter-spacing: 1.4px;
   }
 `;
 

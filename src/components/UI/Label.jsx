@@ -12,6 +12,8 @@ const Label = (props) => {
 export default Label;
 
 const LabelComp = styled.label`
-    margin: 2rem;
-    height: 14px;
+    margin: ${props=> props.isIndexEven ? '0.5rem' : '2rem'};
+    height: 1.71px;
+    letter-spacing: 1.4px;
+
 `;

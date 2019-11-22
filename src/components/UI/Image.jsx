@@ -12,7 +12,7 @@ export default Image;
 
 const ImgComp = styled.div`
     width: 100%;
-    height: 170px;
+    height: 50%;
     margin: auto;
     background-color: #f4f4f4;
 `;

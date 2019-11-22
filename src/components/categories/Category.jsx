@@ -19,7 +19,7 @@ const Category = (props) => {
     return (
         <Section>
             {isIndexEven ? <Image /> : null}
-            <Content>
+            <Content isIndexEven={isIndexEven}>
                 <Label isIndexEven={isIndexEven} />
                 <H2>{title}</H2>
                 <DateUI>{randomDate()}</DateUI>
@@ -42,6 +42,7 @@ const Section = styled.section`
 
 const Content = styled.div`
     background-color: #ffffff;
-    padding: 2rem 1.5rem 0;
-    height: ${props => props.isIndexEven ? '390px' : '190px'};
+    /* padding: 2rem 1.5rem 0; */
+    padding: ${props => props.isIndexEven ? '1rem 1.5rem 2rem' : '2rem 1.5rem 0'};
+    height: ${props => props.isIndexEven ? '190px' : '390px'};
 `;  
